@@ -15,9 +15,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
-
-/*
- Future Reference :
- https://www.dropbox.com/s/083qkqq01f9ds2e/ClickableUILable-UItapGesture.zip?dl=0
- https://www.youtube.com/watch?v=aaW5rxd5rbw  -  [ Make UIlable clickable in swift using UITapGestureRecognizer ]
- */
