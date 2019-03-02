@@ -12,6 +12,7 @@
 		DCA79FA520163A2200A72178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA79FA320163A2200A72178 /* Main.storyboard */; };
 		DCA79FA720163A2200A72178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA79FA620163A2200A72178 /* Assets.xcassets */; };
 		DCA79FAA20163A2200A72178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA79FA820163A2200A72178 /* LaunchScreen.storyboard */; };
+		E5153D89222B262A006F59CB /* ClickedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5153D88222B262A006F59CB /* ClickedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DCA79FA620163A2200A72178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA79FA920163A2200A72178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA79FAB20163A2200A72178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5153D88222B262A006F59CB /* ClickedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DCA79F9F20163A2200A72178 /* AppDelegate.swift */,
 				DCA79FA120163A2200A72178 /* ViewController.swift */,
+				E5153D88222B262A006F59CB /* ClickedLabel.swift */,
 				DCA79FA320163A2200A72178 /* Main.storyboard */,
 				DCA79FA620163A2200A72178 /* Assets.xcassets */,
 				DCA79FA820163A2200A72178 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				DCA79FA220163A2200A72178 /* ViewController.swift in Sources */,
 				DCA79FA020163A2200A72178 /* AppDelegate.swift in Sources */,
+				E5153D89222B262A006F59CB /* ClickedLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBBZ6K6ZJT;
 				INFOPLIST_FILE = "ClickableUILable-UItapGesture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iostutorialjunction.ClickableUILable-UItapGesture";
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBBZ6K6ZJT;
 				INFOPLIST_FILE = "ClickableUILable-UItapGesture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iostutorialjunction.ClickableUILable-UItapGesture";

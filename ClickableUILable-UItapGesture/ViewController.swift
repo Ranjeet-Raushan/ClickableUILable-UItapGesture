@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        labelClickableUsingTapGesture.text = "labelClickableUsingTapGesture"
+        labelClickableUsingTapGesture.text = "Label Clickable using Tap Gesture"
         self.view.addSubview(labelClickableUsingTapGesture)
         
         //to make UILabel clickable
