@@ -1,7 +1,7 @@
 //  ClickedLabel.swift
 //  ClickableUILable-UItapGesture
 //  Created by Ranjeet Raushan on 03/03/19.
-//  Copyright © 2019 Aman Aggarwal. All rights reserved.
+//  Copyright © 2019 Vaayoo. All rights reserved.
 
 import UIKit
 
