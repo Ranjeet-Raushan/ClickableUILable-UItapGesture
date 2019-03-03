@@ -6,8 +6,11 @@
 import UIKit
 
 class ClickedLabel: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        if (self.navigationController?.navigationBar) != nil {
+            navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.blue]
+        }
+        navigationItem.title = "Clicked Label"
     }
 }
